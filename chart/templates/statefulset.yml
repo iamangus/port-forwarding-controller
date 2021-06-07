@@ -15,7 +15,7 @@ spec:
       controller-tools.k8s.io: "1.0"
       app: {{ template "port-forwarding.name" . }}
       release: {{ .Release.Name }}
-  # serviceName: port-forwarding-controller-manager-service
+  serviceName: port-forwarding-controller-manager-service
   template:
     metadata:
       labels:
