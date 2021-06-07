@@ -1,5 +1,6 @@
-apiVersion: v0
+apiVersion: v2
 appVersion: 0.1.0
 description: A chart to deploy a controller which configures port forwarding rules on router (e.g. Unifi) for Services
 name: port-forwarding
 version: 0.1.0
+type: application
